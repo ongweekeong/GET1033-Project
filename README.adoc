@@ -11,7 +11,7 @@
 :note-caption: :information_source:
 :warning-caption: :warning:
 :experimental:
-= Automated Lighting System & Doorbell/Alarm
+= Automated Lighting & Doorbell/Alarm System
 
 == Project Objectives
 This project is assessed as the `Final Project` for GET1033, a module offered in the National University of Singapore (NUS). The purpose of this project is to explore computational media literacy by designing a project that involves the use of computational processes, including the use of actual programming. 
