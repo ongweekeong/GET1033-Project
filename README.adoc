@@ -1,4 +1,4 @@
-= Automated Lighting System & Doorbell/Alarm
+= GET1033 Project Summary
 :site-section: ProjectPortfolio
 :toc:
 :toc-title:
@@ -11,11 +11,17 @@
 :note-caption: :information_source:
 :warning-caption: :warning:
 :experimental:
-= Project Overview
+= Automated Lighting System & Doorbell/Alarm
 
-This is a simple Arduino Project done for a school assignment from NUS, GET1033. The purpose of this project is to exxplore computational media literacy by designing a project that involves the use of computational processes.
+== Project Objectives
+This project is assessed as the `Final Project` for GET1033, a module offered in the National University of Singapore (NUS). The purpose of this project is to explore computational media literacy by designing a project that involves the use of computational processes, including the use of actual programming. 
 
-== Link for Documentation
+== Project Overview
+As such, my project group and I have decided to do a simple Arduino-based project, which models after an automated lighting and doorbell (or alarm) system. This involves the use of an Arduino board (Arduino Uno with an ATMega328P microcontroller), and the use of the C++ programming language together with the Arduino software and IDE. It also involves the use of hardware components such as sensors and actuators (explained more below).
+
+
+
+*Link for Documentation*
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
