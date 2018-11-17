@@ -1,3 +1,8 @@
-= GET1033-Project
+= Automated Lighting System & Doorbell/Alarm
 
-Simple Arduino Project for a school assignment
+This is a simple Arduino Project done for a school assignment from NUS, GET1033. The purpose of this project is to exxplore computational media literacy by designing a project that involves the use of computational processes.
+
+== Link for Documentation
+
+Refer to the link below for more details about this project and the documentation of the project development process.
+* link:docs/Project Documentation.adoc[Project Documentation]
