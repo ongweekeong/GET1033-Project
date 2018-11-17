@@ -1,2 +1,2 @@
-# GET1033-Project
+= GET1033-Project
 Simple Arduino Project for a school assignment
