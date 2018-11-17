@@ -19,10 +19,14 @@ This project is assessed as the `Final Project` for GET1033, a module offered in
 == Project Overview
 As such, my project group and I have decided to do a simple Arduino-based project, which models after an automated lighting and doorbell (or alarm) system. This involves the use of an Arduino board (Arduino Uno with an ATMega328P microcontroller), and the use of the C++ programming language together with the Arduino software and IDE. It also involves the use of hardware components such as sensors and actuators (explained more below).
 
-
+Typically, an automated lighting system activates when the environment is not bright enough, and when a person walks past the sensor. For our project, we tried to one-up this: to make the light follow the person!
 
 *Link for Documentation*
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
 * link:docs/ProjectDocumentation.adoc[Project Documentation]
+
+== Contributors
+
+The members of the group can be found link:docs/groupPicture.jpeg[here]
