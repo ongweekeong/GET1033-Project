@@ -21,7 +21,7 @@ As such, my project group and I have decided to do a simple Arduino-based projec
 
 Typically, an automated lighting system activates when the environment is not bright enough, and when a person walks past the sensor. For our project, we tried to one-up this: to make the light follow the person!
 
-*Link for Documentation*
+== Link to Full Documentation
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
