@@ -1,0 +1,15 @@
+= About Us
+:site-section: AboutUs
+:relfileprefix: team/
+:imagesDir: images/
+
+
+We are a project team formed for the purpose of this GET1033 Final Project.
+== Project Team
+
+image::groupPicture.jpeg
+
+From left to right:
+. Joel Chang
+. Ong Wee Keong
+. Carlynne Choy

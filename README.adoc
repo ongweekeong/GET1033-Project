@@ -29,4 +29,4 @@ Refer to the link below for more details about this project and the documentatio
 
 == Contributors
 
-The members of the group can be found link:docs/groupPicture.jpeg[here]
+The members of the group can be found link:docs/AboutUs.adoc[here]
