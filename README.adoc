@@ -17,15 +17,15 @@
 This project is assessed as the `Final Project` for GET1033, a module offered in the National University of Singapore (NUS). The purpose of this project is to explore computational media literacy by designing a project that involves the use of computational processes, including the use of actual programming. 
 
 == Project Overview
-As such, my project groupmates and I have decided to do a simple Arduino-based project, which models after an automated lighting and doorbell (or alarm) system. This involves the use of an Arduino board (Arduino Uno with an ATMega328P microcontroller), and the use of the C++ programming language together with the Arduino software and IDE. It also involves the use of hardware components such as sensors and actuators (explained more below).
+As such, my project groupmates and I have decided to do a simple Arduino-based project, which models after an automated lighting and doorbell (or alarm) system. This involves the use of an Arduino board (Arduino Uno with an ATMega328P microcontroller), and the use of the C++ programming language together with the Arduino software and IDE. It also involves the use of hardware components such as sensors and actuators (details of how these components were implemented is discussed link:docs/ProjectDocumentation.adoc[here]) - a light sensor component that determines the brightness of the surroundings, a proximity sensor that determines the distance of the person/object from the door, an LED and a servo to implement the moving lamp as well as a piezo buzzer for the alarm. 
 
-Typically, an automated lighting system activates when the environment is not bright enough, and when a person walks past the sensor. For our project, we tried to one-up this - to make the light follow the person!
+Typically, an automated lighting system activates when the environment is not bright enough, and when a person walks past the sensor. For our project, we tried to one-up this - to make the light follow the person's movements!
 
 == Link to Full Documentation
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
-* link:docs/images/ProjectDocumentation.adoc[Project Documentation]
+* link:docs/ProjectDocumentation.adoc[Project Documentation]
 
 == Contributors
 
