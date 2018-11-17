@@ -25,7 +25,7 @@ Typically, an automated lighting system activates when the environment is not br
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
-* link:docs/ProjectDocumentation.adoc[Project Documentation]
+* link:docs/images/ProjectDocumentation.adoc[Project Documentation]
 
 == Contributors
 
