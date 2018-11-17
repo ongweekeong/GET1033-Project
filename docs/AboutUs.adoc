@@ -8,7 +8,7 @@ We are a project team formed for the purpose of this GET1033 Final Project.
 
 == Project Team
 
-image::groupPicture.jpeg
+image::groupPicture.jpeg[Group Photo]
 
 From left to right:
 
