@@ -19,4 +19,4 @@ This is a simple Arduino Project done for a school assignment from NUS, GET1033.
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
-* link:docs/Project Documentation.adoc[Project Documentation]
+* link:docs/ProjectDocumentation.adoc[Project Documentation]
