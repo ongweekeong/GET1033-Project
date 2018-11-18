@@ -103,6 +103,7 @@ Perhaps, the use of electromagnetism might offer a viable path towards successfu
 === Affordances Analysis
 
 In Lecture 2, we learnt about the 4 unique affordances of digital media proposed by Janet Murray, which are:
+
 . Encyclopedic storage
 . Spatialized representation
 . Participatory engagement and
