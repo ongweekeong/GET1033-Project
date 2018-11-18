@@ -23,7 +23,7 @@ As the team leader, coming up with the design for this project proved to be a ch
 
 == Functionality
 
-A video explaining how the system works can be found link:images/WhatsApp Video 2018-11-17 at 8.33.03 PM.mp4[here].
+A video explaining how the system works can be found link:images/videoDemoWithSubs.mp4[here].
 The flow chart below is a high level diagram that shows how we got the components working together in the way we wanted them to. The code we implemented followed this flow of logic as well.
 
 image::flowchart.png[Flow Diagram for code]
