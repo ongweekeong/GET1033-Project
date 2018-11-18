@@ -23,6 +23,7 @@ As the team leader, coming up with the design for this project proved to be a ch
 
 == Functionality
 
+A video explaining how the system works can be found link:images/WhatsApp Video 2018-11-17 at 8.33.03 PM.mp4[here].
 The flow chart below is a high level diagram that shows how we got the components working together in the way we wanted them to. The code we implemented followed this flow of logic as well.
 
 image::flowchart.png[Flow Diagram for code]
@@ -80,7 +81,7 @@ The timeline here shows the progress of the project over the past few weeks lead
 Upon retrospect, there are several ways in which this project can be further improved:
 
 . Use of more proximity sensors.
-.. We found that the ultrasonic sensors were extremely reliable and accurate in determining the distance of an object right in front of it. However, it is not as accurate when the subject is standing to the left or right of the sensor. This inaccuracy becomes more obvious when the person is nearer to the sensor. By using a few ultrasonic sensors, it will allow the arduino to determine more accurately how much should the servo arm rotate by, allowing it to track the person's movements more accurately.
+.. We found that the ultrasonic sensors were extremely reliable and accurate in determining the distance of an object right in front of it. However, it is not as accurate when the subject is standing to the left or right of the sensor. This inaccuracy becomes more obvious when the person is nearer to the sensor. By using a few ultrasonic sensors, it will allow the arduino to determine more accurately how much should the servo arm rotate by, allowing it to track the person's movements more accurately. It will also allow a bigger area to be covered by the proximity sensor.
 . Have 2 different tunes, 1 for alarm, 1 for doorbell.
 .. Currently, there is only 1 tune in the code that we wrote. However, if we wrote 1 more, then one could be used represent an alarm, and the other to represent the doorbell. This can allow the user (and even the 'visitor') to be able to differentiate with ease whether it is a security breach or a guest.
 . Implement a button to switch between doorbell and alarm mode.
