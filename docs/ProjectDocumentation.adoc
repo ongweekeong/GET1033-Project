@@ -29,7 +29,7 @@ image::flowchart.png[Flow Diagram for code]
 
 As seen in the flowchart, the arduino would always first check if the environment was dark enough that the other parts of the system would be activated. If it was not, it will actively monitor the brightness of the environment. If the brightness goes below the threshold value that we set, it will then activate the proximity sensor to check the distance of the object or person (if any) in front of it. If the distance it reads is less than the threshold distance we set, it will activate the LED and the servo to point the LED towards the person. And if the distance the proximity sensor reads is less than the threshold we set for triggering the alarm, the buzzer will start playing the tune *Hall of the Mountain King*.
 
-The sections below explains how we implemented each component, both for the software and hardware aspects.
+The sections below explain how we implemented each component.
 
 === Light Sensor
 
@@ -41,7 +41,7 @@ Initially for the proximity sensor, we were planning to use an Infrared LED and 
 
 === Actuators (Servo and LED)
 
-Initially, none of us from the group knew about servos and how they could be used. Hence, our original idea was just to build and automated light system that will simply turn on when a person comes close. The idea to have the light follow the person's movements started forming only after the a GET1033 tutorial in Week 10 where Dennis brought us to an electronics lab. It was then that he introduced the servo to us. After playing around with it in the lab and learning how it worked, I discovered that we could use that in our project to make the automated lighting more interactive with the user. The distance readings from the proximity sensor was used to determine the amount of voltage being supplied to the servo (through the use of Pulse-Width Modulation), which subsequently determines the angle at which the servo's arm will rotate to. 
+Initially, none of us from the group knew about servos and how they could be used. Hence, our original idea was just to build and automated light system that will simply turn on when a person comes close. The idea to have the light follow the person's movements started forming only after the a GET1033 tutorial in Week 10 where Dennis brought us to an electronics lab. It was then that he introduced the servo to us. After playing around with it in the lab and learning how it works, I discovered that we could use that in our project to make the automated lighting more interactive with the user. The distance readings from the proximity sensor was used to determine the amount of voltage being supplied to the servo (through the use of Pulse-Width Modulation), which subsequently determines the angle at which the servo's arm will rotate to. 
 
 == Constructing the Model
 
@@ -76,6 +76,17 @@ The timeline here shows the progress of the project over the past few weeks lead
 ** Final presentation and compilation of documentation.
 
 == Further Improvements
+
+Upon retrospect, there are several ways in which this project can be further improved:
+
+. Use of more proximity sensors.
+.. We found that the ultrasonic sensors were extremely reliable and accurate in determining the distance of an object right in front of it. However, it is not as accurate when the subject is standing to the left or right of the sensor. This inaccuracy becomes more obvious when the person is nearer to the sensor. By using a few ultrasonic sensors, it will allow the arduino to determine more accurately how much should the servo arm rotate by, allowing it to track the person's movements more accurately.
+. Have 2 different tunes, 1 for alarm, 1 for doorbell.
+.. Currently, there is only 1 tune in the code that we wrote. However, if we wrote 1 more, then one could be used represent an alarm, and the other to represent the doorbell. This can allow the user (and even the 'visitor') to be able to differentiate with ease whether it is a security breach or a guest.
+. Implement a button to switch between doorbell and alarm mode.
+.. This can give give the user full control of how exactly he wants the system to be used.
+. Use of a Real-Time Clock module
+.. The other alternative was to add a real-time clock module, which help turn the system into 'alarm mode' when it is late, or into 'doorbell mode' when it is in the day. 
 
 == Critical Analysis
 
