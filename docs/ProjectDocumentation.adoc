@@ -100,8 +100,6 @@ The servo itself is a rather interesting device - in this artifact, it is used t
 
 Perhaps, the use of electromagnetism might offer a path towards successfully creating and implementing 'Radical Atoms'.
 
-=== Connecting with Ideas Learnt In Class
-
 === Affordances Analysis
 
 In Lecture 2, we learnt about the 4 unique affordances of digital media proposed by Janet Murray, which are:
@@ -121,7 +119,7 @@ image::affordances.png[]
 . If the environment has dim lighting,
 . If there is a person approaching his house,
 . If there is a person very near his door, and
-. Roughly where that person is in the walk way towards the user's house door.
+. Roughly where that person is in the walkway towards the user's house door.
 * Participatory engagement:
 ** *High*. This artifact involves a very high involvement of user input. The system only activates if there is a user present, and if it is dark enough. After that, any response from the system (movement of servo and continued lighting up of LED) is entirely determined by the actions of the user. If he moves closer, the servo and LED will track his movements. If he moves too close, the doorbell/alarm will be triggered. If he moves further away, beyond the threshold distance set, the LED will turn off and the servo will stop tracking him. 
 * Procedurality:
