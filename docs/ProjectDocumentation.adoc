@@ -19,17 +19,29 @@ As mentioned in the link:../README.adoc[Project Summary], this project aims to m
 
 === Motivations
 
-As the team leader, coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After running through the 
-
-
+As the team leader, coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After the lecture in week 7 on Physical Computing, where the Arduino was introduced to us, our group decided that we wanted to do an Arduino-based project as it was something alot more hands-on and tangible, which we generally preferred.
 
 == Functionality
 
+The flow chart below is a high level diagram that shows how we got the components working together in the way we wanted them to. The code we implemented followed this flow of logic as well.
+
+image::flowchart.png[Flow Diagram for code]
+
+As seen in the flowchart, the arduino would always first check if the environment was dark enough that the other parts of the system would be activated. If it was not, it will actively monitor the brightness of the environment. If the brightness goes below the threshold value that we set, it will then activate the proximity sensor to check the distance of the object or person (if any) in front of it. If the distance it reads is less than the threshold distance we set, it will activate the LED and the servo to point the LED towards the person. And if the distance the proximity sensor reads is less than the threshold we set for triggering the alarm, the buzzer will start playing the tune *Hall of the Mountain King*.
+
+The sections below explains how we implemented each component, both for the software and hardware aspects.
+
 === Light Sensor
+
+We made use of the Light Dependent Resistor (LDR) to determine the brightness of the environment. The LDR's resistance value changes according to the brightness of light incident on its surface, making it suitable for our purposes. After setting the LDR up in a series circuit with another resistor, we were able to read the voltage across the LDR using an analog pin on the arduino and the in-built `analogRead()` function from the Arduino software. 
 
 === Proximity Sensor
 
+Initially for the proximity sensor, we were planning to use an Infrared LED and receiver. However, after consulting our tutor Dennis, we swapped over to the ultrasonic sensor instead. The ultrasonic sensor helps us determine the distance of objects in front of it by sending out an ultrasonic pulse and starting a timer then. The timer will stop when the ultrasonic sensor detects a returning ultrasonic pulse. The amount of time taken for the pulse to be reflected back to the ultrasonic sensor can be used to determine the distance of the object that reflected the pulse back to the sensor, as we know the speed of sound in air.
+
 === Actuators (Servo and LED)
+
+Initially, none of us from the group knew about servos and how they could be used. Hence, our original idea was just to build and automated light system that will simply turn on when a person comes close. The idea to have the light follow the person's movements started forming only after the a GET1033 tutorial in Week 10 where Dennis brought us to an electronics lab. It was then that he introduced the servo to us. After playing around with it in the lab and learning how it worked, I discovered that we could use that in our project to make the automated lighting more interactive with the user. The distance readings from the proximity sensor was used to determine the amount of voltage being supplied to the servo (through the use of Pulse-Width Modulation), which subsequently determines the angle at which the servo's arm will rotate to. 
 
 == Constructing the Model
 
@@ -43,10 +55,10 @@ The timeline here shows the progress of the project over the past few weeks lead
 
 * Week 9: 
 ** Obtained components needed for project (shoe box, light dependent resistor (LDR), ultrasonic sensor, Arduino, resistors, cables etc.)
-** Reading up and familiarisation with the Arduino software.
+** Read up and familiarised ourselves with the Arduino software.
 * Week 10:
 ** Built proximity and light sensors.
-** Setup serial monitor to ensure that both sensors were working as intended.
+** Setup serial monitor to check that both sensors were working as intended.
 * Week 11:
 ** Optimised sensors via calibration.
 ** Began integrating the different parts of the code that we worked on.
@@ -55,7 +67,9 @@ The timeline here shows the progress of the project over the past few weeks lead
 ** Debugged using results from tests.
 ** Built the moving LED and tested code to ensure moving LED was working as intended.
 ** Integrated code to direct the servo with the light and proximity sensor code.
+** Wrote the code for the doorbell/alarm tune (Hall of the Mountain King).
 * Week 13:
+** Debugged and got the doorbell code working.
 ** Finalised model by securing the various components to cardboard.
 ** Final calibration after model was finalised.
 ** Cleaned up the code by removing unnecessary comments and additional lines that we included to help us debug in our initial phases of the project.
