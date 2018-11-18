@@ -25,9 +25,9 @@ This involves the use of an Arduino board (Arduino Uno with an ATMega328P microc
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
-* link: docs/ProjectDocumentation.adoc[Project Documentation]
-* link: docs/images[Images & Videos]
-* link: src[Source Code]
+* link:docs/ProjectDocumentation.adoc[Project Documentation]
+* link:docs/images[Images & Videos]
+* link:src[Source Code]
 
 == Contributors
 
