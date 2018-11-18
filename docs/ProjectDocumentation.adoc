@@ -21,6 +21,9 @@ As mentioned in the link:../README.adoc[Project Summary], this project aims to m
 
 As the team leader, coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After the lecture in week 7 on Physical Computing, where the Arduino was introduced to us, our group decided that we wanted to do an Arduino-based project as it was something alot more hands-on and tangible, which we generally preferred.
 
+=== Project License
+This project is licensed under the `GNU General Public License v3.0`. Details of the license can be found link:../LICENSE[here]
+
 == Functionality
 
 A video explaining how the system works can be found link:images/videoDemoWithSubs.mp4[here].
