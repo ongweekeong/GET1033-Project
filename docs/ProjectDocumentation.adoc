@@ -1,0 +1,33 @@
+= GET1033 Project Summary
+:site-section: ProjectPortfolio
+:toc:
+:toc-title:
+:sectnums:
+:imagesDir: images
+:stylesDir: stylesheets
+:xrefstyle: full
+
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:warning-caption: :warning:
+:experimental:
+= Automated Lighting & Doorbell/Alarm System
+
+== Project Overview
+
+=== Motivations
+
+== Functionality
+
+== Constructing the Model
+
+=== Timeline
+
+== Further Improvements
+
+== Critical Analysis
+
+=== Connecting with Ideas Learnt In Class
+
+=== Affordances Analysis
+
