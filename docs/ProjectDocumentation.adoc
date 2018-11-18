@@ -1,5 +1,5 @@
-= GET1033 Project Summary
-:site-section: ProjectPortfolio
+= GET1033 Project Documentation
+:site-section: ProjectDocumentation
 :toc:
 :toc-title:
 :sectnums:
