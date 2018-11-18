@@ -15,13 +15,51 @@
 
 == Project Overview
 
+As mentioned in the link:../README.adoc[Project Summary], this project aims to model after an automated lighting and doorbell/alarm system that activates only when it is dark, where the light will follow the person's movements and will trigger a sound output when the person comes close to the door/sensor. 
+
 === Motivations
+
+As the team leader, coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After running through the 
+
+
 
 == Functionality
 
+=== Light Sensor
+
+=== Proximity Sensor
+
+=== Actuators (Servo and LED)
+
 == Constructing the Model
 
+image::finalPrototype.jpeg[Picture of Model that was presented in class]
+
+The final model that we created was scaled down so that we could demonstrate it appropriately within the given space in our lecture venue. The cardboard represents the walk way towards the door of the house, with the light and proximity sensor (both built on the same breadboard) placed where the door would have been. The LED was then secured onto the servo using tape to secure not just the LED itself to the servo's arm, but also to secure the connection from the LED to its cables. After these 2 main components were assembled properly, we then attached them to a piece of cardboard and calibrated the code according to the size of the model. 
+
 === Timeline
+
+The timeline here shows the progress of the project over the past few weeks leading up to the project submission:
+
+* Week 9: 
+** Obtained components needed for project (shoe box, light dependent resistor (LDR), ultrasonic sensor, Arduino, resistors, cables etc.)
+** Reading up and familiarisation with the Arduino software.
+* Week 10:
+** Built proximity and light sensors.
+** Setup serial monitor to ensure that both sensors were working as intended.
+* Week 11:
+** Optimised sensors via calibration.
+** Began integrating the different parts of the code that we worked on.
+** Obtained servo to build the moving LED.
+* Week 12:
+** Debugged using results from tests.
+** Built the moving LED and tested code to ensure moving LED was working as intended.
+** Integrated code to direct the servo with the light and proximity sensor code.
+* Week 13:
+** Finalised model by securing the various components to cardboard.
+** Final calibration after model was finalised.
+** Cleaned up the code by removing unnecessary comments and additional lines that we included to help us debug in our initial phases of the project.
+** Final presentation and compilation of documentation.
 
 == Further Improvements
 
