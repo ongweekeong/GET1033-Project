@@ -98,3 +98,27 @@ Upon retrospect, there are several ways in which this project can be further imp
 
 === Affordances Analysis
 
+In Lecture 2, we learnt about the 4 unique affordances of digital media proposed by Janet Murray, which are:
+. Encyclopedic storage
+. Spatialized representation
+. Participatory engagement and
+. Procedurality.
+
+Based on these affordances, our group's project would have the following profile:
+
+image::affordances.png[]
+
+* Encyclopedic storage:
+** *Low*. For this artifact, there is not a lot of information that is stored in the arduino board. It has quite a limited memory and only needs to store the code logic and the specific threshold values that we have set and calibrated.
+* Spatialized representation:
+** *Relatively low*. For this artifact, there is no direct way for a user to directly navigate through the data that is stored or read by the arduino. However, the information that is stored by the arduino are connected in interesting ways that by observing the outputs (the LED and the servo), the user is able to deduce the following information:
+. If the environment has dim lighting,
+. If there is a person approaching his house,
+. If there is a person very near his door, and
+. Roughly where that person is in the walk way towards the user's house door.
+* Participatory engagement:
+** *High*. This artifact involves a very high involvement of user input. The system only activates if there is a user present, and if it is dark enough. After that, any response from the system (movement of servo and continued lighting up of LED) is entirely determined by the actions of the user. If he moves closer, the servo and LED will track his movements. If he moves too close, the doorbell/alarm will be triggered. If he moves further away, beyond the threshold distance set, the LED will turn off and the servo will stop tracking him. 
+* Procedurality:
+** *High*. As explained in the flowchart above, there is a fixed set of rules that the artifact follows in determining the output. This set of rules can be considered rather elaborate as they are chained together, where the fulfilling of 1 rule will cause the artifact to check for the fulfillment of another rule.
+
+
