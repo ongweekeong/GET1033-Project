@@ -119,6 +119,6 @@ image::affordances.png[]
 * Participatory engagement:
 ** *High*. This artifact involves a very high involvement of user input. The system only activates if there is a user present, and if it is dark enough. After that, any response from the system (movement of servo and continued lighting up of LED) is entirely determined by the actions of the user. If he moves closer, the servo and LED will track his movements. If he moves too close, the doorbell/alarm will be triggered. If he moves further away, beyond the threshold distance set, the LED will turn off and the servo will stop tracking him. 
 * Procedurality:
-** *High*. As explained in the flowchart above, there is a fixed set of rules that the artifact follows in determining the output. This set of rules can be considered rather elaborate as they are chained together, where the fulfilling of 1 rule will cause the artifact to check for the fulfillment of another rule.
+** *High*. As explained in the link:https://github.com/ongweekeong/GET1033-Project/blob/master/docs/ProjectDocumentation.adoc#2-functionality[flowchart] above, there is a fixed set of rules that the artifact follows in determining the output. This set of rules can be considered rather elaborate as they are chained together, where the fulfilling of 1 rule will cause the artifact to check for the fulfillment of another rule.
 
 
