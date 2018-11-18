@@ -21,11 +21,13 @@ As such, my project groupmates and I have decided to do a simple Arduino-based p
 
 This involves the use of an Arduino board (Arduino Uno with an ATMega328P microcontroller), and the use of the C++ programming language together with the Arduino software and IDE. It also involves the use of hardware components such as sensors and actuators (details of how these components were implemented is discussed in the `Full Documentation` link below) - a light sensor component that determines the brightness of the surroundings, a proximity sensor that determines the distance of the person/object from the door, an LED and a servo to implement the moving lamp as well as a piezo buzzer for the alarm. 
 
-== Link to Full Documentation
+== Useful Links
 
 Refer to the link below for more details about this project and the documentation of the project development process.
 
-* link:docs/ProjectDocumentation.adoc[Project Documentation]
+* link: docs/ProjectDocumentation.adoc[Project Documentation]
+* link: docs/images[Images & Videos]
+* link: src[Source Code]
 
 == Contributors
 
