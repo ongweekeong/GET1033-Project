@@ -87,6 +87,8 @@ The servo itself is a rather interesting device - in this artifact, it is used t
 
 Perhaps, the use of electromagnetism might offer a viable path towards successfully creating and implementing 'Radical Atoms'.
 
+In addition, on the idea of procedural rhetoric, this artifact can serve as both a deterrent to intruders and as a sign of hospitality towards guests. The duality of purpose in which this artifact can be used for holds 2 different rhetorics. Depending on the intentions of the people who visit this house, they will either get the message "Do not try anything funny, I am watching you" and "You've been warned" if they come with malicious intentions, or the message "Welcome to my interesting house!" to guests who are openly visiting and have nothing to hide. In our lecture in Week 4, we discussed the idea of how video games can make arguments through the use of procedural rhetoric. Through the exploration of this project and through the artifact my group has made, I realised that it is also possible for a single artifact to hold more than 1 rhetoric, if there is are multiple purposes/contexts in which it can be used.
+
 === Affordances Analysis
 
 In Lecture 2, we learnt about the 4 unique affordances of digital media proposed by Janet Murray, which are:
