@@ -19,7 +19,11 @@ As mentioned in the link:../README.adoc[Project Summary], this project aims to m
 
 === Motivations
 
-As the team leader, coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After the lecture in week 7 on Physical Computing, where the Arduino was introduced to us, our group decided that we wanted to do an Arduino-based project as it was something alot more hands-on and tangible, which we generally preferred.
+Coming up with the design for this project proved to be a challenge as most of us in the group had relatively little or no experience in programming, prior to taking this module itself. However, we wanted to attempt building and programming something that could be useful and relevant to our everyday lives. After the lecture in week 7 on Physical Computing, where the Arduino was introduced to us, our group decided that we wanted to do an Arduino-based project as it was something alot more hands-on and tangible, which we generally preferred.
+
+After some brainstorming and discussion, we landed on the idea of building an automated lighting system, which was inspired by the lighting systems used in toilets now that turns on only when there is movement detected inside the toilet. We wanted to extend this to an automated lighting system that can be used not just in the toilet but also along the hallway/stairs of a house, where finding the switch to the lights may prove to be inconvenient in and of itself when it is already dark to begin with. After we managed to reach our objective, we wanted to see if we could further improve on the project by making the lights more interactive - to track the movements of the user. This further evolved our project into something that can be used not just in the hallway or staircase of a house but also as a lighting system that can be installed outside the user's house and can "guide" the user back to his house when it is dark.
+
+We then added the finishing touches to the project by connecting the buzzer to the arduino, effectively making it a full alarm/doorbell system with automated lights.
 
 === Project License
 This project is licensed under the `GNU General Public License v3.0`. Details of the license can be found link:../LICENSE[here]
