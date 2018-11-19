@@ -35,7 +35,7 @@ The flow chart below is a high level diagram that shows how we got the component
 
 image::flowchart.png[Flow Diagram for code]
 
-As seen in the flowchart, the arduino would always first check if the environment was dark enough that the other parts of the system would be activated. If it was not, it will actively monitor the brightness of the environment. If the brightness goes below the threshold value that we set, it will then activate the proximity sensor to check the distance of the object or person (if any) in front of it. If the distance it reads is less than the threshold distance we set, it will activate the LED and the servo to point the LED towards the person. And if the distance the proximity sensor reads is less than the threshold we set for triggering the alarm, the buzzer will start playing the tune *Hall of the Mountain King*.
+As seen in the flowchart, the arduino would always first check if the environment was dark enough that the other parts of the system would be activated. If it was not, it will actively monitor the brightness of the environment. If the brightness goes below the threshold value that we set, it will then activate the proximity sensor to check the distance of the object or person (if any) in front of it. If the distance it reads is less than the threshold distance we set, it will activate the LED and the servo to point the LED towards the person. And if the distance the proximity sensor reads is less than the threshold we set for triggering the alarm, the buzzer will start playing the tune _Hall of the Mountain King_.
 
 The sections below explain how we implemented each component.
 
