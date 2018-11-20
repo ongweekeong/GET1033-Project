@@ -123,7 +123,7 @@ Overall, the high procedurality and participatory engagement levels results in t
 
 === Building Off Other Projects Seen
 
-As mentioned in the link:../README.adoc#2-project-overview[Project Summary], typical projects that involve automated lights will only switch on lights when a person walks past a sensor. In this project, we have tried to do something slightly different by making the atuomated light more interactive through the use of the servo.
+As mentioned in the link:../README.adoc#2-project-overview[Project Summary], typical projects that involve automated lights will only switch on lights when a person walks past a sensor. In this project, we have tried to do something slightly different by making the automated light more interactive through the use of the servo.
 
 Furthermore, during the project demonstration on the final lecture, we also saw another group that had a similar idea as ours and complemented ours really well - it was a lockdown system that keeps intruders trapped in the house until the police and relevant authorities have come to catch the intruder (and disable the alarm). Our project builds off on such projects well, where the focus is on keeping intruders locked in. If both systems were used together, if somehow the intruder gets past the external alarm, the internal alarm will still activate and lockdown, keeping the intruder locked inside the house. 
 
@@ -136,7 +136,7 @@ Upon retrospect, there are several ways in which this project can be further imp
 . Have 2 different tunes, 1 for alarm, 1 for doorbell.
 .. Currently, there is only 1 tune in the code that we wrote. However, if we wrote 1 more, then one could be used represent an alarm, and the other to represent the doorbell. This can allow the user (and even the 'visitor') to be able to differentiate with ease whether it is a security breach or a guest.
 . Implement a button to switch between doorbell and alarm mode.
-.. This can give give the user full control of how exactly he wants the system to be used.
+.. This can give the user full control of how exactly he wants the system to be used.
 . Use of a Real-Time Clock module
 .. The other alternative was to add a real-time clock module, which help turn the system into 'alarm mode' when it is late, or into 'doorbell mode' when it is in the day. 
 
